@@ -62,6 +62,15 @@ public enum OpenGraphMetadata: String, CaseIterable {
     case profileLastName  = "profile:last_name"
     case profileUsername  = "profile:username"
     case profileGender    = "profile:gender"
+    
+    // Twitter Cards
+    
+    case twitterCard = "twitter:card"
+    case twitterSite = "twitter:site"
+    case twitterCreator = "twitter:creator"
+    case twitterTitle = "twitter:title"
+    case twitterDescription = "twitter:description"
+    case twitterImage = "twitter:image"
 }
 
 #if !swift(>=4.2)
